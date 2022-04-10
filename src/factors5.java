@@ -4,7 +4,7 @@ public class factors5 {
         Scanner sc=new Scanner(System.in);
         int i;
         int a=sc.nextInt();
-        for (i =1;i*i<=a;i++){
+        for (i =1;i<=a;i++){
             if (a%i==0)
                 System.out.println(i);
 
